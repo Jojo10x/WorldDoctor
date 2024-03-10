@@ -1,0 +1,56 @@
+.block-container img {
+   width: 100%;
+}
+
+#first-p {
+   color: #01457A;
+   font-family: Noto Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: left;
+
+
+
+}
+p{   font-family: Noto Sans;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: left;
+
+}
+
+.img-block {
+   display: flex;
+   gap: 20px;
+}
+
+.img-block img {
+ width: 33.3%;
+}
+
+.block h2 {
+   text-align: center;
+}
+
+@media (max-width: 768px) {
+
+   .block{
+      flex-direction: column;
+   }
+   .img-block {
+      flex-direction: column;
+   }
+
+   .img-block img {
+      width: 100% !important;
+   }
+}
+.text-holder span {
+   font-weight: 700;
+   color: #01457A ;
+   opacity: 1;
+}
